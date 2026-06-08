@@ -33,3 +33,4 @@ chroma_db/
 faiss_index/
 
 .vscode
+.idea
