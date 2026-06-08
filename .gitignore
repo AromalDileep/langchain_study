@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments (uv / venv)
+.venv/
+env/
+venv/
+ENV/
+
+# Sensitive Data (API Keys)
+.env
+.env.local
+.env.*
+!.env.example
+
+# LangChain / AI Specific
+# Ignore locally downloaded Hugging Face models if you use a custom cache folder
+my_model_cache/
+.cache/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Project Specific
+# If you create local vector databases (FAISS/Chroma), ignore the data folders
+*.index
+*.pkl
+chroma_db/
+faiss_index/
+
+.vscode
